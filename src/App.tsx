@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-200 via-purple-200 to-indigo-200 flex items-center justify-center p-4 overflow-hidden">
       <audio id="bgMusic" loop>
-        <source src="/public/Dk2fois.mp3" type="audio/mp3" />
+        <source src="Dk2fois.mp3" type="audio/mp3" />
       </audio>
       
       {/* Fond animé */}
