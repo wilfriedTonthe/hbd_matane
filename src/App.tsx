@@ -7,10 +7,10 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const images = [
-    "sana6.jpg",
-    "serana4.jpg",
-    "serena1.jpg",
-    "serena2.jpg"
+    "mata1.jpg",
+    "mata2.jpg",
+    "mata3.jpg",
+    "mata1.jpg"
   ];
 
   useEffect(() => {
@@ -75,7 +75,7 @@ function App() {
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mb-8">
-              Joyeux Anniversaire Serena! ✨
+              Joyeux Anniversaire Murielle Matane! ✨
             </h1>
 
             {/* Galerie d'images autour du texte */}
@@ -94,17 +94,17 @@ function App() {
 
             {/* Texte entouré d'images */}
             <div className="prose prose-lg max-w-none text-gray-700 space-y-8 text-center relative">
-              <img src="sana6.jpg" className="float-left w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
-              <h2 className="text-2xl font-semibold text-purple-600 mb-6">Pour Toi, Serena</h2>
+              <img src="mata1.jpg" className="float-left w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
+              <h2 className="text-2xl font-semibold text-purple-600 mb-6">Pour Toi, Murielle Matane</h2>
               
               <p className="italic leading-relaxed">
-                À Serena, l'amie aux yeux d'or,<br/>
+                À Murielle, l'amie aux yeux d'or,<br/>
                 En ce jour où le soleil se dore,<br/>
                 Un an de plus, une étoile qui brille,<br/>
                 Dans ton ciel bleu, où l'amour ne faiblit jamais.
               </p>
 
-              <img src="serena1.jpg" className="float-right w-40 h-40 object-cover rounded-xl ml-6 shadow-md" alt="Célébration" />
+              <img src="mata2.jpg" className="float-right w-40 h-40 object-cover rounded-xl ml-6 shadow-md" alt="Célébration" />
               <p className="italic leading-relaxed">
                 Tes rires sont des mélodies célestes,<br/>
                 Qui chassent les ombres et les tristesses.<br/>
@@ -112,7 +112,7 @@ function App() {
                 Qui illumine nos vies et nous guide vers le bonheur.
               </p>
 
-              <img src="serana4.jpg" className="float-left w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
+              <img src="mata3.jpg" className="float-left w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
               <p className="italic leading-relaxed">
                 Que cette année t'apporte des joies infinies,<br/>
                 Des rêves fous, des projets brillants, des souvenirs éternels.<br/>
@@ -120,9 +120,9 @@ function App() {
                 Et que la joie emplisse chaque instant de ta vie.
               </p>
               
-              <img src="serena2.jpg" className="float-right w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
+              <img src="mata1.jpg" className="float-right w-40 h-40 object-cover rounded-xl mr-6 shadow-md" alt="Célébration" />
               <p className="italic leading-relaxed">
-                Alors, Serena, lève ton verre,<br/>
+                Alors, Matane, lève ton verre,<br/>
                 À ta santé, à ton mystère, à ton cœur d'or.<br/>
                 Joyeux anniversaire, amie chérie,<br/>
                 Que l'amour, la lumière et la joie soient tes compagnes de route.
